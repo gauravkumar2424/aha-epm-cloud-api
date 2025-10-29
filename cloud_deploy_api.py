@@ -19,7 +19,7 @@ from datetime import datetime
 # CONFIGURATION (NO HARDCODED SECRETS!)
 # ============================================================================
 CONFIG = {
-    'MODEL_PATH': 'models_cloud/best_cloud_model.keras',
+    'MODEL_PATH': 'models_cloud/cloud_model.keras',
     'AUDIO_DIR': 'audio_output',
     'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY'),  # ✅ From environment only!
     'PORT': int(os.environ.get('PORT', 5000))
