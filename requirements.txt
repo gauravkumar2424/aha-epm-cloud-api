@@ -1,7 +1,7 @@
-flask==3.0.0
-flask-cors==4.0.0
-tensorflow>=2.13.0,<2.18.0
-numpy>=1.24.0,<2.0.0
-openai>=1.0.0
-gTTS>=2.4.0
-gunicorn==21.2.0
+flask
+flask-cors
+tensorflow-cpu
+numpy
+openai
+gTTS
+gunicorn
